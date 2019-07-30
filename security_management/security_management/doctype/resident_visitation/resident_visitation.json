@@ -1,0 +1,73 @@
+{
+ "creation": "2019-07-28 02:02:30.987735",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "visitor_name",
+  "visitor_car_no",
+  "visit_date",
+  "qr_id",
+  "resident_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "visitor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Visitor Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "visitor_car_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Visitor Car No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "visit_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Visit Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "qr_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "QR ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "resident_id",
+   "fieldtype": "Link",
+   "label": "Resident ID",
+   "options": "Mobile User",
+   "reqd": 1
+  }
+ ],
+ "modified": "2019-07-29 17:35:15.626488",
+ "modified_by": "Administrator",
+ "module": "Security Management",
+ "name": "Resident Visitation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,84 @@
+{
+ "creation": "2019-07-28 01:46:31.488666",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "start_time",
+  "end_time",
+  "active",
+  "guard_id",
+  "lat_lng_id",
+  "date",
+  "duration"
+ ],
+ "fields": [
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Start Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Datetime",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "active",
+   "fieldtype": "Data",
+   "label": "Active",
+   "reqd": 1
+  },
+  {
+   "fieldname": "guard_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Guard ID",
+   "options": "Mobile User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lat_lng_id",
+   "fieldtype": "Link",
+   "label": "Lat Lng ID",
+   "options": "Lat Lng",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Time",
+   "label": "Duration"
+  }
+ ],
+ "modified": "2019-07-30 08:48:15.267311",
+ "modified_by": "Administrator",
+ "module": "Security Management",
+ "name": "Patrol Session",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
